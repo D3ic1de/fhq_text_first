@@ -1,0 +1,45 @@
+/*p.a {
+    text-align: left;
+}
+
+p.b {
+    text-align: center;
+}
+
+p.c {
+    text-align: right;
+}*/
+p {
+    /*text-align: justify;*/
+    width: 200px;
+    text-indent: 2em;
+    /*line-height: normal;*/
+    /*line-height: 1;*/
+    /*line-height: 10px;*/
+    word-spacing: 10px;
+    white-space: nowrap;
+}
+
+img.a {
+    vertical-align: baseline;
+}
+
+img.b{
+    vertical-align: text-top;
+}
+
+img.c {
+    vertical-align: text-bottom;
+}
+
+img.d {
+    vertical-align: sub;
+}
+
+img.e {
+    vertical-align: super;
+}
+
+h1 {
+    letter-spacing: 5px;
+}

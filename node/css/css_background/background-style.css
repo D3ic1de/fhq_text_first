@@ -1,0 +1,9 @@
+html,body {
+    height: 100%;
+    /*background-image: url(./OIP-C.jfif);*/
+    /*background-color: rgba(0,255,0,0.1);*/
+    /*background-repeat: repeat;*/
+    /*background-position: center center;*/
+    /*background-attachment: fixed;*/
+    background: rgba(0,255,0,0.1) url(./JAY.jfif) no-repeat right bottom fixed;
+}

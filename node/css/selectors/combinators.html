@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS组合选择器</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        div h3 {
+            color: blue;
+        }
+
+        div li p{
+            color: darkblue;
+        }
+
+        div>p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>CTF</h1>
+
+        <p>CTF是一种流行的信息安全竞赛形式，其英文名可直译为“夺得Flag”，也可意译为“夺旗赛”。
+            其大致流程是，参赛团队之间通过进行攻防对抗、程序分析等形式，率先从主办方给出的比赛环境中得到一串具有一定格式的字符串或其他内容，并将其提交给主办方，从而夺得分数。
+            为了方便称呼，我们把这样的内容称之为“Flag”。</p>
+
+        <h3>Web安全</h3>
+
+        <ol>
+            <li>
+                <p>客户端脚本安全</p>
+            </li>
+            <li>
+                <p>服务器端应用安全</p>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>

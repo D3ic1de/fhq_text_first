@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS伪元素选择器</title>
+    <style>
+        p,div {
+            width:200px;
+            height:200px;
+            background-color: red;
+        }
+
+        div::first-letter {
+            color:blue;
+            font-size: 30px;
+        }
+
+        p::first-line{
+            color: mediumblue;;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        我是一个div元素，用来向元素内的第一个字符添加样式声明。
+    </div>
+    <p>
+        我是一个p元素，用来向元素内第一行文本添加样式声明。
+    </p>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS属性选择器</title>
+    <style>
+        [type] {
+            width: 50px;
+            height: 50px;
+        }
+
+        [name="sex"] {
+            width: 20px;
+            height: 20px;
+        }
+
+        [class~="box"]{
+            background-color: yellow;
+        }
+
+        [class|="box"]{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>基础信息</h1>
+    用户名:<input type="text" class="box"><br>
+    密码框:<input type="password"><br>
+    回答问题:<input type="text"><br>
+    性别选择:<input type="radio" name="sex">男
+    <input type="radio" name="sex">女<br>
+    是否核酸:<input type="radio" name="yesORno">是
+    <input type="radio" name="yesORno">否<br>
+    <h1>元素修饰</h1>
+    <p class="box big bobo">我是一个p元素我有三个类名，分别是:box,big,bobo</p>
+    <p class="box bobo">我是一个p元素我有两个类名，分别是:box,bobo</p>
+    <div class="box">我是一个div元素，我有一个类名叫做box</div>
+    <div class="box-qf">我是一个div元素,我有一个类名叫做box-qf</div>
+</body>
+</html>

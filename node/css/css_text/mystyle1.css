@@ -1,0 +1,12 @@
+body {
+    /*一个页面的默认文本颜色是在body选择器中定义的*/
+    color: blue;
+}
+
+h1 {
+    color: green;
+}
+
+p.transform {
+    text-transform: capitalize;
+}

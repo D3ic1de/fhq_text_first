@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    min-width: 800px;
+    border: 10px solid tomato;
+}
+
+.left {
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    background-color: gold;
+}
+
+.right {
+    display: inline-block;
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: aliceblue;
+}

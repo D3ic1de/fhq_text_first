@@ -1,0 +1,55 @@
+#square {
+    width: 0;
+    height: 0;
+    border-top: 50px solid red;
+    border-right: 50px solid yellow;
+    border-bottom: 50px solid blue;
+    border-left: 50px solid green;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    /*border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;*/
+    border: 50px solid transparent;
+    border-top: 50px solid red;
+}
+
+#trapezium {
+    width: 0;
+    height: 0;
+    border-right: 50px solid blue;
+    border-bottom: 50px solid blue;
+    border-left: 50px solid transparent;
+}
+
+#windmills {
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+}
+
+#windmills div {
+    float: left;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+}
+
+#windmills .box1{
+    border-bottom: 50px solid red;
+}
+
+#windmills .box2{
+    border-left: 50px solid red;
+}
+
+#windmills .box3{
+    border-right: 50px solid red;
+}
+
+#windmills .box4{
+    border-top: 50px solid red;
+}

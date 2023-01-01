@@ -1,0 +1,21 @@
+div {
+    border: 1px solid black;
+   /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;*/
+    /*margin: 100px 150px 100px 80px;*/
+    background-color: lightblue;
+    margin: auto;
+    width: 200px;
+    margin-top: 50px;
+}
+h1 {
+    margin:0 0 70px 0;
+}
+h2 {
+    /*margin:20px 0 0 0;*/
+}
+div>p {
+    margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+ul li,div {
+    display: inline;
+}
+
+span,a {
+    display: block;
+}
+
+.imgbox {
+    float: left;
+    text-align: center;
+    width: 240px;
+    border: 1px solid gray;
+    margin: 4px;
+    padding: 6px;
+}
+
+.imgbox img {
+    width: 200px;
+}
+
+#imgbox2 {
+    /*display: none;*/
+    /*display: block;*/
+    /*visibility: hidden;*/
+    visibility: visible;
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.box1 {
+    background-color: orange;
+    box-sizing: border-box;
+    border: 20px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box2 {
+    background-color: yellow;
+}

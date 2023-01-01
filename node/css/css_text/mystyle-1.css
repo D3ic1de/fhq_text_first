@@ -1,0 +1,23 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    /*font-size: 16px;*/
+}
+
+h1 {
+    font-family: Microsoft Yahei;
+}
+
+h3 {
+    font-family: "Courier New", "Brush Script MT", Copperplate;
+}
+
+p {
+    font-family: 华文仿宋;
+    /*font-size: 20px;*/
+    /*font-size: 2em;*/
+    /*font-size: 200%;*/
+    font-size: 2rem;
+}

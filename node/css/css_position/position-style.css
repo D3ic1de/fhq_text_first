@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+.container > div {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    line-height: 150px;
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+    /*position: relative;*/
+    /*position: absolute;*/
+    /*position: static;*/
+}
+
+.outer {
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.container:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.box1 {
+    background-color: orange;
+}
+
+.box2 {
+    background-color: skyblue;
+    /*position: relative;
+    left: 50px;
+    top: 50px;*/
+
+    /*position: absolute;
+    left: 50px;
+    top: 50px;*/
+
+    /*position: fixed;
+    right: 0;
+    top: 100px;*/
+
+   /* position: sticky;
+    top: 100px;
+*/
+}
+
+.box3 {
+    background-color: hotpink;
+}
+
+.box4 {
+    height: 30px;
+    background-color: darkgrey;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    position: sticky;
+    top: 100px;
+}

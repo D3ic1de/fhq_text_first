@@ -1,0 +1,66 @@
+ul.a {
+    list-style-type: circle;
+}
+ul.b {
+    list-style-type: disc;
+}
+ul.c {
+    list-style-type: square;
+}
+
+ol.d{
+    list-style-type: decimal;
+}
+ol.e{
+    list-style-type: upper-roman;
+}
+ol.f{
+    list-style-type: lower-alpha;
+}
+
+ul.g{
+    list-style-image:url(./JAY.jfif);
+}
+
+ul.h {
+    list-style-position: outside;
+}
+
+ul.i {
+    list-style-position: inside;
+}
+
+ul.j {
+    list-style-type: none;
+}
+
+ul.k {
+    list-style: square inside url(./JAY.jfif);
+}
+
+ul.l {
+    list-style: none;
+}
+
+ul.m {
+    background: #39f;
+    padding: 20px;
+}
+
+ol.n {
+    background: #f99;
+    padding: 20px;
+}
+
+ul.m li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+
+ol.n li{
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}

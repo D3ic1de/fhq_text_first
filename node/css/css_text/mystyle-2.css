@@ -1,0 +1,23 @@
+h1 {
+    font-weight: normal;
+}
+
+p.p1 {
+    font-style: normal;
+    font-weight: bold;
+}
+
+p.p2 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+p.p3 {
+    /*font-weight: 100;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 华文仿宋*/
+    font: oblique 100 small-caps 30px/30px 华文仿宋;
+}

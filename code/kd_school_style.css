@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.bancen {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100px;
+    /*background-color: red;*/
+}
+
+.logo > img{
+    float: left;
+    margin-top: 26px;
+}
+
+.logo > div {
+    width: 294px;
+    height: 48px;
+    border: 1px solid #e2e2e2;
+    float: right;
+    margin: 26px 0px;
+}
+
+.logo input{
+    height: 100%;
+    width: 243px;
+    float: left;
+    text-indent: 10px;
+}
+
+.logo p {
+    height: 100%;
+    border-left: 1px solid #e2e2e2;
+    width: 50px;
+    float: left;
+    background: url(kd-find.png)
+    no-repeat center;
+}
+
+.layout {
+    height: 60px;
+    background-color: #313131;
+}
+
+.nav {
+    /*background-color: orange;*/
+}
+
+.nav > li {
+    float: left;
+    line-height: 60px;
+    border-right: 1px solid #4b4b4b;
+    color: #f4f9f8;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.nav > .last {
+    border-right: 0px;
+}
+
+.banner > img {
+    width: 100%;
+}
+
+.content {
+    height: 250px;
+    margin-bottom: 30px;
+    /*background-color: orangered;*/
+}
+
+.content > div{
+    height: 250px;
+    float: left;
+}
+
+.content > .lef {
+    width: 487px;
+    /*background-color: green;*/
+    margin-right: 25px;
+}
+
+.content > .cen {
+    width: 348px;
+    background-color: #f5f5f5;
+}
+
+.content > .rig {
+    width: 240px;
+    /*background-color: aqua;*/
+    background: #fbfbfb url(kd-flower.png) right bottom no-repeat;
+}
+
+.content > .lef >.ptit {
+    padding: 37px 0px 29px;
+    color: #272727;
+}
+
+.content > .lef > ul {
+    font-size: 12px;
+    line-height: 24px;
+    color: #32313a;
+}
+
+.content > .lef > ul span {
+    float: right;
+}
+
+.content > .cen > .ptit {
+    padding: 37px 0px 30px 26px;
+    color: #212121;
+}
+
+.content > .cen > .info1 {
+    padding: 0px 42px 29px 26px;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.content > .cen > .info2 {
+    padding: 0px 42px 0px 26px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9d9d9d;
+}
+
+
+.content > .rig > .ptit {
+    padding: 38px 0px 25px 26px;
+    color: #545454;
+}
+
+.content > .rig > .info {
+    font-size: 12px;
+    padding: 0px 34px 58px 26px;
+    line-height: 24px;
+}
+
+.content > .rig > .pbtn {
+    width: 66px;
+    height: 20px;
+    background-color: #afafaf;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    color: white;
+    margin-left: 26px;
+    border-radius: 3px;
+}
+
+.infolayout {
+    height: 288px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.infolayout > .infocen {
+    width: 1054px;
+    height: 196px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+
+.infocen > img {
+    float: left;
+    margin: 20px;
+}
+
+.infocen > .info {
+    float: left;
+    width: 693px;
+    height: 160px;
+    /*background-color: yellow;*/
+    margin-top: 20px;
+}
+
+.infocen .ptit1 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #3f4442;
+    padding-top: 4px;
+}
+
+.infocen .ptit2 {
+    font-size: 14px;
+    color: #524e48;
+    margin: 20px 0px 20px;
+}
+
+.infocen .ptit2 span {
+    color: #29ad43;
+    margin: 0px 44px 0px 20px;
+}
+
+.infocen .pinfo {
+    font-size: 14px;
+    line-height: 24px;
+    color: #9f9a94;
+}
+
+.teachertitle {
+    height: 77px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 14px;
+}
+
+.teachertitle > span {
+    margin-top: 36px;
+}
+
+.introducelef {
+    float: left;
+    color: #3b332b;
+    font-size: 22px;
+}
+
+.introducerig {
+    float: right;
+    color: #ed4819;
+}
+
+.teacher {
+    height: 290px;
+    margin-bottom: 30px;
+    /*background-color: yellow;*/
+}
+
+.teacher > div {
+    width: 262px;
+    height: 290px;
+    background-color: #eff4f5;
+    float: left;
+    margin-right: 17px;
+}
+
+.teacher > .last {
+    margin-right: 0;
+}
+
+.teacher > div img {
+    display: block;
+    margin: 18px auto 16px;
+}
+
+.teacher > div .pname {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #2a272b;
+}
+
+.teacher > div .ptit {
+    width: 142px;
+    height: 26px;
+    background-color: #5fa5ed;
+    margin: 0 auto 15px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    color: #edeaff;
+}
+
+.teacher > div .pinfo {
+    border-top: 1px solid #d5dadb;
+    margin: 0px 14px;
+    margin-top: 16px;
+    font-size: 10px;
+    color: #5c6064;
+    line-height: 23px;
+    word-break: break-all;
+}
+
+.botlayout {
+    background-color: #101c23;
+    height: 129px;
+    text-align: center;
+    color: #9a9c91;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.botlayout > .paddress {
+    padding-top: 45px;
+}
